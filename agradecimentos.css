@@ -96,17 +96,12 @@ header {
 footer{
  text-align: center;
  color: #fff;
- margin-top: 329px;
+ margin-top: 582px;
  background-color: rgba(164, 121, 103, 0.6);
-/*Bloco abaixo configura o footer para ficar fixo*/
+ /*Bloco abaixo configura o footer para ficar fixo*/
   position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
   padding: 1rem 0;
-}
-
-footer,a{
-  text-decoration: none;
-  color: #fff; 
 }
