@@ -84,8 +84,7 @@ header {
   border-radius: 3%;
   margin-top: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  opacity: 0.8;
-  border: 3px solid #a47967;
+  opacity: 0.8; 
 }
 
 .agradece p{
