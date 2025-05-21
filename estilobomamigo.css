@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('/imagens/Imagembomamigofundo.jpg'); /* caminho da imagem */
+  background-position: center;        /* centraliza a imagem */
+  background-repeat: no-repeat;       /* evita repetição */
+  background-size: contain;
+  min-height: 100vh;
+  background-color: #151617;
+}
+
+nav {
+  background-color: #151617;
+  padding: 10px 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.introducao {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+  border-radius: 15px;
+  background: linear-gradient(to right,
+  rgba(242, 211, 160, 0) 0%,       /* lateral esquerda transparente */
+  rgba(200, 157, 110, 0.6) 25%,    /* tom caramelo começando a surgir */
+  rgba(139, 92, 59, 0.9) 50%,      /* centro mais escuro e opaco */
+  rgba(200, 157, 110, 0.6) 75%,    /* voltando ao caramelo */
+  rgba(242, 211, 160, 0) 100%      /* lateral direita transparente */);
+}
+
+.imgbomamigo {
+  width: 300px;
+  border-radius: 3%;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border: 2px solid #151617;
+}
+
+.introducao, h2{
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+}
+
+@media (max-width: 790px) {
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav {
+    text-align: center;
+  }
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #b47e3d;
+}
+footer{
+  text-align: center;
+  color: #fff;
+  margin-top: 200px;
+  background-color: #151617;
+  /*Bloco abaixo configura o footer para ficar fixo*/
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+ }
+ 
+ footer,a{
+   text-decoration: none;
+   color: #fff;
+   opacity: 0.8;
+ }
