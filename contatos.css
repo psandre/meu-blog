@@ -7,7 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-image: url('/imagens/osambafoto.jpg'); /* caminho da imagem */
+  background-image: url('imagens/osambafoto.jpg'); /* caminho da imagem */
   background-position: center;        /* centraliza a imagem */
   background-repeat: no-repeat;       /* evita repetição */
   color: #fff;                        /* texto branco para contraste */
