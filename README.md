@@ -24,12 +24,3 @@ Criar uma apresentação simples e visual do meu trabalho musical para fins acad
 
 Basta abrir o arquivo `home.html` no navegador para começar a navegação.
 
-## 🔗 Links
-
-- Repositório GitHub: https://github.com/psandre/blog-musical.git
-- Projeto online: _[A ser inserido]_
-
-## 🙏 Agradecimento
-
-Obrigado por visitar meu projeto.  
-Espero que você sinta um pouco da minha essência como compositor!
